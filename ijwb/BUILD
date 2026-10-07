@@ -54,6 +54,7 @@ stamped_plugin_xml(
     plugin_name = "Bazel for IntelliJ (legacy)",
     # #api212: We depend on an API which is only contained in 2021.2.1+.
     since_build_numbers = {"212": "212.5080.55"},
+    until_build_numbers = {"261": "262.*"},
     stamp_since_build = True,
     stamp_until_build = True,
     version = VERSION,
